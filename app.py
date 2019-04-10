@@ -38,6 +38,7 @@ class UpJson(db.Model):
     button = db.Column(db.TEXT, comment="返回键，左上角x按钮，数组")
     jump = db.Column(db.TEXT, comment="跳转链接数组")
     times = db.Column(db.String(20), comment="上报次数")
+    package_name = db.Column(db.String(500), comment="包名")
 
 
 class Up(ModelView):
@@ -47,7 +48,7 @@ class Up(ModelView):
     can_view_details = True
     column_searchable_list = ["userid"]
     column_editable_list = ["userid", "main", "screen", "point",
-                            "button", "jump", "times"]
+                            "button", "jump", "times", "package_name"]
 
 
 admin.add_view(ModelView(DownJson, db.session, name="下发Json"))
@@ -86,8 +87,10 @@ def upjson():
         button = json.dumps(data_dic["button"])
         jump = json.dumps(data_dic["jump"])
         times = data_dic["times"]
+        package_name = data_dic["package_name"]
         add_json = UpJson(userid=userid, main=main, screen=screen,
-                          point=point, button=button, jump=jump, times=times)
+                          point=point, button=button, jump=jump, times=times,
+                          package_name=package_name)
         db.session.add(add_json)
         db.session.commit()
         return "ok"
