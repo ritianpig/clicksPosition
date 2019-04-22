@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea846581-4676-42be-ad7d-e528e64690e8" name="Default Changelist" comment="" />
+    <list default="true" id="ea846581-4676-42be-ad7d-e528e64690e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="49" column="54" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="49" selection-end-column="54" />
+            <state relative-caret-position="616">
+              <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -28,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="528">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#29#69#0" expanded="true" />
@@ -46,6 +49,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,7 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,9 +84,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -101,7 +108,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="clicksPosition" type="Python.FlaskServer" factoryName="Flask server">
+    <configuration name="clicksPosition" type="Python.FlaskServer">
       <module name="clicksPosition" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
@@ -134,11 +141,12 @@
       <workItem from="1553235993939" duration="99000" />
       <workItem from="1553237474014" duration="409000" />
       <workItem from="1553241010395" duration="1407000" />
+      <workItem from="1555922217287" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36149000" />
+    <option name="totallyTimeSpent" value="36173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -151,8 +159,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1175" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26916713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27252626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -188,8 +197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="49" column="54" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="49" selection-end-column="54" />
+        <state relative-caret-position="616">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -198,7 +207,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="528">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#29#69#0" expanded="true" />

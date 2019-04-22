@@ -1,6 +1,7 @@
 import json
 import os
 import pickle
+from datetime import datetime
 
 from flask import Flask, request, jsonify
 from flask_admin import Admin
@@ -39,6 +40,7 @@ class UpJson(db.Model):
     jump = db.Column(db.TEXT, comment="跳转链接数组")
     times = db.Column(db.String(20), comment="上报次数")
     package_name = db.Column(db.String(500), comment="包名")
+    up_date = db.Column(db.Date, comment="日期")
 
 
 class Up(ModelView):
@@ -88,9 +90,10 @@ def upjson():
         jump = json.dumps(data_dic["jump"])
         times = data_dic["times"]
         package_name = data_dic["package_name"]
+        up_date = datetime.date(datetime.now())
         add_json = UpJson(userid=userid, main=main, screen=screen,
                           point=point, button=button, jump=jump, times=times,
-                          package_name=package_name)
+                          package_name=package_name, up_date=up_date)
         db.session.add(add_json)
         db.session.commit()
         return "ok"
